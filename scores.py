@@ -11,8 +11,12 @@ script_name = sys.argv[0]
 
 total = sum(scores)
 average = total / len(scores)
+maximum = max(scores)
+minimum = min(scores)
 
 print("Script Name:", script_name)
 print("Scores:", scores)
 print("Sum of Scores:", total)
 print("Average Score:", average)
+print("Maximum Score:", maximum)
+print("Minimum Score:", minimum)
